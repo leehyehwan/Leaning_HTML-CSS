@@ -30,7 +30,7 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
       </div>
       <div class="alt-header__column">
         <hi class="alt-header__title">Yvonne Lee</hi>
@@ -41,7 +41,37 @@
       </div>
     </header>
 
-    <main class="main-screen more-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2020년 7월 22일 화요일</div>
+      <div class="message-row">
+        <img src="image/myimg.jpg" alt="" />
+        <div class="message-row__content">
+          <span class="message__author">Yvonne</span>
+          <div class="message__info">
+            <span class="message__bubble">Hey :)</span>
+            <span class="message__time">21:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Suup?</span>
+            <span class="message__time">21:23</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column"><i class="fas fa-plus-square fa-lg"></i></div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a Message" /><i
+          class="fas fa-smile-wink fa-lg"
+        ></i
+        ><button><i class="fas fa-arrow-up"></i>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/4da77130e5.js"
