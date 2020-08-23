@@ -99,14 +99,14 @@
   margin-left: 5px;
 }
 
-@keyframes hearbeat {
+@keyframes heartbeat {
   0% {
     color: white;
     transform: none;
   }
   50% {
     color: tomato;
-    transform: scale(3);
+    transform: scale(1.5);
   }
   100% {
     color: white;
@@ -116,5 +116,5 @@
 
 .open-post__heart-count:hover i {
   will-change: transform;
-  animation: hearbeat 1s linear infinite;
+  animation: heartbeat 1s linear infinite;
 }
